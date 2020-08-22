@@ -105,6 +105,17 @@
     color: #fff;
 }
 .container{
-    margin-left: 2px;
+    margin-left: 10px;
     position: relative;
+    max-width: 300px;
+    color: solid black;
+    background: bisque;
+    padding-left: 10px;
+    padding-right: 10px;
+    top:25px;
+    border-radius: 28px;
+    box-shadow: black;
+}
+#male b{
+    color: blanchedalmond;
 }
