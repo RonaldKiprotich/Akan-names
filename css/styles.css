@@ -123,6 +123,7 @@
 }
 body{
     background-image: url(https://images.unsplash.com/photo-1598160873867-00ec1dd63f0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
 }
 .gender{
     color: cornsilk;
@@ -137,4 +138,7 @@ body{
 }
 #images{
     display: flex;
+    justify-content:space-around;
+    
+
 }
