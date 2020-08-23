@@ -23,3 +23,18 @@ function findAkanNames(){
     var y = year - a
     var m = month + 12 * a - 2
     var d = (day + y + Math.floor(y / 4) - Math.floor(y / 100) + Math.floor(year / 400) + Math.floor((31 * m )/ 12)) % 7;
+
+
+
+    if (male.checked == true){
+        alert("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + maleNames[d]);
+        console.log(daysOfTheWeek[d]);
+        console.log(maleNames[d]);
+    } else if (female.checked == true){
+        alert("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + femaleNames[d]);
+        console.log(daysOfTheWeek[d]);
+        console.log(femaleNames[d]);
+    } else {
+        alert("Select gender")
+    }
+}
