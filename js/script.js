@@ -27,14 +27,18 @@ function findAkanNames(){
 
 
     if (male.checked == true){
-        alert("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + maleNames[d]);
+        document.getElementById("message").innerHTML=("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + maleNames[d]);
         console.log(daysOfTheWeek[d]);
         console.log(maleNames[d]);
     } else if (female.checked == true){
-        alert("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + femaleNames[d]);
+        document.getElementById("message").innerHTML=("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + femaleNames[d]);
         console.log(daysOfTheWeek[d]);
         console.log(femaleNames[d]);
     } else {
         alert("Select gender")
     }
+    var form = document.getElementById("myForm");
+    function handleForm(event) { event.preventDefault(); } 
+    form.addEventListener('submit', handleForm);
+    
 }
