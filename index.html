@@ -11,6 +11,7 @@
      <div class="intro">
        
         <div class="name"><b1>Akan Naming</b1> <b2>System</b2><b3>.</b3></div>
+        
         <div class="container">
             <h2>About Akan Naming System</h2>
             <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
@@ -27,17 +28,17 @@
             <h2>Find Your Name</h2>
             <form action="">
                 <div class="inputbox">
-                    <input type="category" name="" required="">
-                    <label for="category">Date</label>
+                    <input type="category" name="date" id="day" required="">
+                    <label for="day">Date</label>
                 </div>
                 <div class="inputbox">
-                    <input type="text" name="" required="">
-                    <label for="username">Month</label>
+                    <input type="text" name="month" id="month" required="">
+                    <label for="month">Month</label>
                 </div>
                 
                 <div class="inputbox">
-                    <input type="category" name="" required="">
-                    <label for="category">Year</label>
+                    <input type="category" name="year" id="year" required="">
+                    <label for="year">Year</label>
                 </div>
                  <div class="gender">
 
@@ -49,8 +50,8 @@
                     <br>
                     <br>
                  </div>
-            <input type="submit" class="btn btn-primary" onClick="findAkanNames()" value="submit">
-            </form>
+            <button type="submit" name="submit" class="btn btn-primary" onclick="findAkanNames()">Submit</button>
+          </form>
         </div>
         <script src="./js/script.js"></script>  
 </body>
