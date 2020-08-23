@@ -9,7 +9,7 @@
 .formbox{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 80%;
     transform: translate(-50%, -50%);
     width: 400px;
     padding: 40px;
@@ -110,12 +110,13 @@
     position: relative;
     max-width: 300px;
     color: solid rgb(5, 5, 37);
-    background: bisque;
+    background: #195e83;
     padding-left: 10px;
     padding-right: 10px;
     top:25px;
     border-radius: 32px;
     box-shadow: rgb(1, 13, 44);
+    color: cornsilk;
 }
 #male > label{
     color: blanchedalmond;
@@ -125,4 +126,12 @@ body{
 }
 .gender{
     color: cornsilk;
+}
+.container h2{
+    color: solid blue;
+}
+.ghana{
+    position: absolute;
+    left: 30%;
+    top: 30%;
 }
