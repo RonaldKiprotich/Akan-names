@@ -1,9 +1,10 @@
 .intro{
-    background: linear-gradient(to right,rgba(0,0,0,0.6),rgb(0, 255, 255)), url("images//home_01.jpg");
+    background: linear-gradient(to right,rgba(0,0,0,0.6),rgb(0, 255, 255)), url("images//back.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
+    background:solid blue;
 }
 .formbox{
     position: absolute;
@@ -116,6 +117,9 @@
     border-radius: 28px;
     box-shadow: black;
 }
-#male b{
+#male > label{
     color: blanchedalmond;
+}
+body{
+    background-color:solid blue;
 }
