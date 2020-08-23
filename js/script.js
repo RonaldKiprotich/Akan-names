@@ -9,3 +9,11 @@ function findAkanNames(){
     var year = parseInt(document.getElementById("year").value);
     var male = document.getElementById("male");
     var female = document.getElementById("female");
+    
+    if (day <= 0 || day > 31 ){
+        alert("Please enter a valid date!");
+    } else if (month <= 0 ||  month > 12  || (month == 2 && day >29)){
+        alert("Please enter a valid month!")
+    } else if(year <= 0){
+        alert("Please enter a valid year")
+    }
