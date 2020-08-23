@@ -108,15 +108,18 @@
 .container{
     margin-left: 10px;
     position: relative;
-    max-width: 300px;
+    max-width: 320px;
     color: solid rgb(5, 5, 37);
-    background: #195e83;
+    background: #0a0979;
     padding-left: 10px;
     padding-right: 10px;
     top:25px;
     border-radius: 32px;
-    box-shadow: rgb(1, 13, 44);
+    box-shadow: rgb(145, 163, 209);
     color: cornsilk;
+    bottom: 20px;
+    height:20%;
+    width: 28%;
 }
 #male > label{
     color: blanchedalmond;
@@ -139,6 +142,22 @@ body{
 #images{
     display: flex;
     justify-content:space-around;
+
     
 
 }
+#message span{
+    color: #dc3545
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;  
+    color: rgb(1, 2, 2);    
+    left:40%   
+  }
+  #but{
+      border-radius: 20px;
+      background-color: crimson;
+    }

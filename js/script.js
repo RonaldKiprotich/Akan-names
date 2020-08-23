@@ -27,11 +27,11 @@ function findAkanNames(){
 
 
     if (male.checked == true){
-        document.getElementById("message").innerHTML=("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + maleNames[d]);
+        document.getElementById("message").innerHTML=("You were born on <span>" + daysOfTheWeek[d] +  "</span> and your Akan name is <span>" + maleNames[d]);
         console.log(daysOfTheWeek[d]);
         console.log(maleNames[d]);
     } else if (female.checked == true){
-        document.getElementById("message").innerHTML=("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + femaleNames[d]);
+        document.getElementById("message").innerHTML=("You were born on <span>" + daysOfTheWeek[d] +  " </span> and your Akan name is <span>" + femaleNames[d]);
         console.log(daysOfTheWeek[d]);
         console.log(femaleNames[d]);
     } else {
