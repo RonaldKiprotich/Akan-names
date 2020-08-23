@@ -13,9 +13,9 @@
     transform: translate(-50%, -50%);
     width: 400px;
     padding: 40px;
-    background: rgba(0,0,0,0.8);
+    background: rgba(2, 5, 36, 0.938);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    box-shadow: 0 15px 25px rgba(1, 9, 34, 0.973);
     border-radius: 10px;
 }
 .formbox h2{
@@ -109,17 +109,20 @@
     margin-left: 10px;
     position: relative;
     max-width: 300px;
-    color: solid black;
+    color: solid rgb(5, 5, 37);
     background: bisque;
     padding-left: 10px;
     padding-right: 10px;
     top:25px;
-    border-radius: 28px;
-    box-shadow: black;
+    border-radius: 32px;
+    box-shadow: rgb(1, 13, 44);
 }
 #male > label{
     color: blanchedalmond;
 }
 body{
     background-image: url(https://images.unsplash.com/photo-1598160873867-00ec1dd63f0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}
+.gender{
+    color: cornsilk;
 }
