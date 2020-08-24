@@ -125,7 +125,7 @@
     color: blanchedalmond;
 }
 body{
-    background-image: url(https://images.unsplash.com/photo-1598160873867-00ec1dd63f0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-image: url(https://images.unsplash.com/photo-1598160875942-6a8c5479fef7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
 }
 .gender{
@@ -160,4 +160,8 @@ body{
   #but{
       border-radius: 20px;
       background-color: crimson;
+    }
+    figcaption{
+        color: rgb(102, 6, 19);
+        font-size: 20px;
     }
