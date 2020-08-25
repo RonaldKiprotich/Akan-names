@@ -110,16 +110,23 @@
     position: relative;
     max-width: 320px;
     color: solid rgb(5, 5, 37);
-    background: #0a0979;
+    background: #eaeaf0;
     padding-left: 10px;
     padding-right: 10px;
-    top:25px;
+    top:20px;
     border-radius: 32px;
     box-shadow: rgb(145, 163, 209);
-    color: cornsilk;
+    color: rgb(71, 62, 13);
     bottom: 20px;
     height:20%;
     width: 28%;
+    padding:20px;
+
+}
+#top{
+    color:brown;
+    background-color: solid blue;
+    text-underline-position: ;
 }
 #male > label{
     color: blanchedalmond;
@@ -131,8 +138,8 @@ body{
 .gender{
     color: cornsilk;
 }
-.container h2{
-    color: solid blue;
+.container b1{
+    color: solid rgb(225, 0, 255);
 }
 .ghana{
     position: absolute;
